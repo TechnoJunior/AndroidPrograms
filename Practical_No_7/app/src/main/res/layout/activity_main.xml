@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt1"
+        android:hint="@string/type_here"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"
+        android:text="@string/write"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/btn1"
+        android:layout_marginEnd="136dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginRight="136dp"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn3"
+        android:text="@string/delete"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btn1"
+        android:layout_marginEnd="30dp"
+        android:textSize="18sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp" />
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="219dp"
+        android:id="@+id/txtVw"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btn1"
+        android:layout_marginBottom="58dp"
+        android:layout_marginStart="-25dp"
+        android:scrollbars="horizontal|vertical"
+        android:singleLine="false"
+        android:visibility="visible"
+        android:layout_marginLeft="-25dp"
+        android:layout_alignLeft="@+id/btn1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:text="Read"
+        android:layout_marginStart="18dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_above="@+id/txtVw"
+        android:layout_alignStart="@id/edt1"
+        android:layout_alignLeft="@id/edt1"
+        android:layout_marginLeft="18dp" />
+</RelativeLayout>
