@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Practical_No_5</string>
+    <string name="dollar">Dollar</string>
+    <string name="rupees">Rupees</string>
+    <string name="dollar_to_rupees">Dollar to Rupees</string>
+    <string name="rupees_to_dollar">Rupees to Dollar</string>
+    <string name="reset">RESET</string>
+</resources>
