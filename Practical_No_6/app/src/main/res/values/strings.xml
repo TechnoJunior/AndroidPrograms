@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Practical_No_6</string>
+    <string name="turn_on">Turn On</string>
+    <string name="turn_off">Turn Off</string>
+    <string name="wifi_on">Wifi On</string>
+    <string name="wifi_off">Wifi Off</string>
+</resources>
