@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Practical_No_15</string>
+    <string name="insert">Insert</string>
+    <string name="show">Show</string>
+    <string name="enter_your_name">Name</string>
+    <string name="house_name">House Name</string>
+</resources>
