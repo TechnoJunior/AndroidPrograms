@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Practical_No_18</string>
+    <string name="image_animation">Image Animation</string>
+    <string name="expand">Expand</string>
+    <string name="move">Move</string>
+    <string name="rotate">Rotate</string>
+    <string name="flowers">Flowers</string>
+</resources>
